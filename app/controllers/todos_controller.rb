@@ -8,7 +8,7 @@ class TodosController < ApplicationController
   end
   def show
     id = params[:id].to_i
-    render plain: "The id enter was #{id}"
+    #render plain: "The id enter was #{id}"
     todo= Todo.find(id)
     render plain: todo.to_pleasant
   end
