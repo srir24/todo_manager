@@ -8,6 +8,13 @@ body {
 	margin-right: auto;
 }
 
+.Image-disp{
+	max-width:300px;
+}
+
+.TodoMain{
+	display: flex;
+}
 .Todopage-title {
 	font-size: 48px;
 	line-height: 1.6;
