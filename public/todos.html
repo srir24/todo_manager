@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ToDO Manager App</title>
-  <!---<link rel="stylesheet" type="text/css" href="reset.css">--->
-  <link rel="stylesheet" type="text/css" href="todo-app.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDO Manager App</title>
+	<!---<link rel="stylesheet" type="text/css" href="reset.css">--->
+	<link rel="stylesheet" type="text/css" href="todo-app.css">
 </head>
-  <body>
-    <main class="TodoPage Main">
-      <article>
-        <h1 class="TodoPage-title">My To-do List</h1>
-        <section>
-          <input type="text" placeholder="What's next?" />
-          <input type="date" placeholder="dd-mm-yyyy"/>
-          <input type="button" value="Add" />
-        </section>
-		<section class="TodoSection">
-			<h2 class="Todosection-title">Due Today</h2>
-			<label class="AddTodo">
-				<input class="TodoItem-checkbox" type="checkbox" />
-				<p class="Todosection-todo">Submist SaaS 201 project</p>
-				<img src="delete.png" alt="Delete" width="25" height="30" />
-				<p class="Todosection-todo">Call accountanat</p>
-			</label>
-		</section>
-		
-		<section class="TodoSection">
-			<h2 class="Todosection-title">Due Tomorrow</h2>
-			<label class="AddTodo">
-				<input class="TodoItem-checkbox" type="checkbox" />
-				<p class="Todosection-todo">Refill groceries</p>
-			</label>
-		</section>
-		
-		<section class="TodoSection">
-			<h2 class="Todosection-title">Remaining</h2>
-			<label class="AddTodo">
-				<input class="TodoItem-checkbox" type="checkbox">Complete Level 6 by 				
-				<p class="Todosection-todo">Nov 24</p>
-							
-				<input class="TodoIten-Checkbox" type="checkbox">Buy Gas
-				<p class="Todosection-todo">Nov 25 </p>
-				
-				<input class="TodoIten-Checkbox" type="checkbox">Buy Wheat
-				<p class="Todosection-todo">Nov 26 </p>
-			  
-			</label>
-		</section>
-	  </article>
-    </main>
-  </body>
+
+<body>
+	<main class="TodoPage Main">
+		<article>
+			<h1 class="TodoPage-title">My Todo-list</h1>
+			<section>
+				<input type="text" placeholder="What's next?" />
+				<input type="date" placeholder="dd-mm-yyyy" />
+				<input type="button" value="Add" />
+			</section>
+			<section class="TodoSection">
+				<div>
+					<h2 class="Todosection-title">Due Today</h2>
+					<h2>0/4</h2>
+				</div>
+
+				<label class="AddTodo">
+					<ul>
+						<li>
+							<input class="TodoItem-checkbox" type="checkbox" />
+							<p class="Todosection-todo">Submist SaaS 201 project</p>
+							<img src="delete.png" alt="Delete" width="25" height="30" />
+						</li>
+						<li>
+							<input class="TodoItem-checkbox" type="checkbox" />
+							<p class="Todosection-todo">Call accountanat</p>
+						</li>
+					</ul>
+				</label>
+			</section>
+
+			<section class="TodoSection">
+				<div>
+					<h2 class="Todosection-title">Due Tomorrow</h2>
+					<h2>0/4</h2>
+				</div>
+				<label class="AddTodo">
+					<ul>
+						<li>
+							<input class="TodoItem-checkbox" type="checkbox" />
+							<p class="Todosection-todo">Refill groceries</p>
+						</li>
+					</ul>
+				</label>
+			</section>
+
+			<section class="TodoSection">
+				<div>
+					<h2 class="Todosection-title">Remaining</h2>
+					<h2>0/4</h2>
+				</div>
+				<label class="AddTodo">
+					<ul>
+						<li>
+							<input class="TodoItem-checkbox" type="checkbox">Complete Level 6 by
+							<p class="Todosection-todo">Nov 24</p>
+						</li>
+						<li>
+							<input class="TodoIten-Checkbox" type="checkbox">Buy Gas
+							<p class="Todosection-todo">Nov 25 </p>
+						</li>
+						<li>
+							<input class="TodoIten-Checkbox" type="checkbox">Buy Wheat
+							<p class="Todosection-todo">Nov 26 </p>
+						</li>
+					</ul>
+				</label>
+			</section>
+		</article>
+	</main>
+</body>
+
 </html>
