@@ -10,6 +10,7 @@ body {
 	max-width:300px;
 }
 
+
 .TodoPage-title {
   font-size: 20px;
   line-height: 1.6;
@@ -30,10 +31,16 @@ h1.Todopage-title{
   margin-bottom: 32px;
 	margin-left: 32px;
 	padding: 32px;
-	
 }
 
-.Todosection-title {
+
+.TodoSection-head {
+  display: flex;
+  height: 24px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+.TodoSection-title {
 	font-size: 34px;
 	line-height: 1.4;
 	color: #453C52;
@@ -70,4 +77,18 @@ h1.Todopage-title{
 	line-height: 1.2;
 	margin-left: 32px;
 	color: #453C52;
+}
+
+.AppendTodo-text {
+  padding: 6px 6px;
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #bfb8cc;
+  color: #453c52;
+}
+
+.AppendTodo-button{
+  border: 1px solid transparent;
+  background-color: #48bb78;
 }
