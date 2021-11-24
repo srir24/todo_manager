@@ -27,7 +27,7 @@ h1.Todopage-title{
 }
 
 .TodoSection {
-  margin-bottom: 32px;
+  /*margin-bottom: 32px;*/
   margin-left: 32px;
   /*padding: 32px;*/
 }
@@ -36,7 +36,7 @@ h1.Todopage-title{
   display: flex;
   height: 24px;
   align-items: stretch;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 
 .TodoSection-SubSection {
@@ -126,4 +126,20 @@ li {
 .TodoItem-checkbox {
   width: 16px;
   height: 16px;
+}
+
+.TodoItem-container:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  visibility: visible;
+  width: fit-content;
+}
+.TodoItem-list:hover .TodoItem_DeleteButton {
+  background-color: lightgray;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.TodoItem_DeleteButton {
+  visibility: hidden;
 }
