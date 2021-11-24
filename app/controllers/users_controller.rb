@@ -9,7 +9,7 @@ class UsersController<ApplicationController
     id = params[:id].to_i
     #render plain: "The id enter was #{id}"
     user= Users.find(id)
-    render plain: user.to_pleasant
+    render plain: user.to_pleasant_user
   end
   def create
     name = params[:name]
