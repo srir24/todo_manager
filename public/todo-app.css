@@ -6,33 +6,31 @@ body {
   margin-top: 100px;
 }
 
-.Image-disp{
-	max-width:300px;
+.Image-disp {
+  max-width: 300px;
 }
 
-
-.TodoPage-title {
+.Todopage-title {
   font-size: 20px;
   line-height: 1.6;
   color: #453c52;
   font-weight: 600;
   margin-bottom: 12px;
 }
-
+/*
 h1.Todopage-title{
 	color: darkcyan;
-}
+}*/
 
-.PageTitle{
-	color: darkorange;
+.PageTitle {
+  color: darkorange;
 }
 
 .TodoSection {
   margin-bottom: 32px;
-	margin-left: 32px;
-	/*padding: 32px;*/
+  margin-left: 32px;
+  /*padding: 32px;*/
 }
-
 
 .TodoSection-head {
   display: flex;
@@ -40,22 +38,25 @@ h1.Todopage-title{
   align-items: stretch;
   margin-bottom: 24px;
 }
-.TodoSection-SubSection{
+
+.TodoSection-SubSection {
   display: flex;
 }
+
 .TodoSection-title {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 8px;
   margin-right: 8px;
-  line-height: 1.4;
+  line-height: 1.2;
   color: #453c52;
 }
 
-.TodoSection-counter{
+.TodoSection-counter {
   font-weight: 500;
   font-size: 13px;
 }
+
 .TodoSectionTitle {
   display: flex;
   color: #453c52;
@@ -67,7 +68,7 @@ h1.Todopage-title{
   font-size: 14px;
   font-weight: 600;
   margin-right: 8px;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .TodoSectionTitle-remainingCount {
@@ -82,10 +83,15 @@ h1.Todopage-title{
 }
 
 .Todosection-todo {
-	font-size: 20px;
-	line-height: 1.2;
-	margin-left: 32px;
-	color: #453C52;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-left: 10px;
+  color: #453c52;
+  display: inline;
+}
+
+.Todosection-todo-overdue {
+  color: #c53030;
 }
 
 .AppendTodo-text {
@@ -97,7 +103,27 @@ h1.Todopage-title{
   color: #453c52;
 }
 
-.AppendTodo-button{
+li {
+  list-style: none;
+}
+
+.AppendTodo-button {
   border: 1px solid transparent;
   background-color: #48bb78;
+}
+
+.TodoItem-list {
+  font-size: 14px;
+  color: #453c52;
+}
+
+.TodoItem-container {
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+}
+
+.TodoItem-checkbox {
+  width: 16px;
+  height: 16px;
 }
